@@ -1,0 +1,1053 @@
+\RequirePackage{fix-cm}
+\documentclass[a4paper,english]{book}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{graphicx}
+\usepackage{setspace}
+\setstretch{1.4}
+
+\makeatletter
+
+\fontfamily{antiqua}
+%\setmainfont{antiqua}
+\selectfont
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\special{papersize=\the\paperwidth,\the\paperheight}
+
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{fullpage}
+\usepackage{hanging}
+
+\newenvironment{indentedparagraph}[1]%
+  {\begin{list}{}%
+    {\setlength{\leftmargin}{#1}}%
+      \item[]%
+    }
+  {\end{list}}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{The Divine Liturgy of Saint John Chrysostom}
+
+
+\author{Christopher M. Bryan}
+
+
+\date{\today}
+
+\maketitle
+\thispagestyle{empty}\cleardoublepage{}
+
+
+\chapter*{The Divine Liturgy}
+
+
+\section*{The Liturgy of the Catechumens}
+
+Deacon: Bless, Master.
+
+Priest: Blessed is the Kingdom of the Father, and of the Son, and of the
+Holy Spirit, now and ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+\subsection*{The Litany of Peace \emph{or} Great Litany}
+
+Deacon: In peace, let us pray to the Lord
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: For the peace from above, and the salvation of our souls, let us
+pray to the Lord
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: For the peace of the whole world, the good estate of the holy churches
+of God, and the union of all men, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: For this holy house, and for those who with faith, reverence, and
+the fear of God enter herein, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: For our Metropolitan N., for the honourable presbytery, the diaconate
+in Christ, all the clergy and people, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: For our Sovereign Lady Queen Elizabeth, the civil authorities and
+armed forces, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: For this city, for every city and countryside, and the faithful
+that dwell therein, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: For healthful seasons, abundance of the fruits of the earth, and
+peaceful times, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+`
+Deacon: For travellers by sea, by land and by air; for the sick, the suffering,
+captives and their salvation, let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: For our deliverance from all tribulation, wrath, danger and necessity,
+let us pray to the Lord
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O God, by Thy
+grace.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: Calling to remembrance our all-holy, immaculate, most blessed and
+glorious Lady Theotokos and ever-virgin Mary\ldots{}
+
+\textbf{Choir: }\emph{(while Deacon continues\ldots{})}
+
+\lilypondfile[staffsize=18]{lilypond_files/Most_Holy_Theotokos.ly}
+
+Deacon: \ldots{}with all the saints, let us commend ourselves and each other and
+all our life unto Christ our God.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+\emph{Meanwhile the priest says quietly the prayer of the first Antiphon
+ending aloud with\ldots{}}
+
+Priest: \ldots{}for unto Thee is due all glory, honour and worship; to the Father,
+and to the Son, and to the Holy Spirit, now and ever, and unto the
+ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+\lilypondfile[staffsize=18]{lilypond_files/separate/1st_Antiphon.ly}
+%\textbf{\large\emph{Choir sings the first antiphon}}
+%\cleardoublepage
+
+\subsection*{The First Little Litany}
+
+Deacon: Again and again in peace let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O Lord, by Thy
+grace.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: Calling to remembrance our all-holy, immaculate, most blessed and
+glorious Lady Theotokos and ever-virgin Mary\ldots{}
+
+\textbf{Choir: }\emph{(while Deacon continues\ldots{})}
+
+\lilypondfile[staffsize=18]{lilypond_files/Most_Holy_Theotokos.ly}
+
+Deacon: \ldots{}with all the saints, let us commend ourselves and each other and
+all our life unto Christ our God.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+\emph{Meanwhile the priest says quietly the prayer of the second Antiphon
+ending aloud with\ldots{}}
+
+Priest: \ldots{}for Thine is the might, and Thine is the kingdom, and the power,
+and the glory of the Father, and of the Son, and of the Holy Spirit,
+now and ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+Reader: Glory to the Father, and to the Son, and to the Holy Spirit.
+
+%\textbf{\large\emph{Choir sings the second antiphon}}
+\lilypondfile[staffsize=18]{lilypond_files/separate/2nd_Antiphon.ly}
+
+Reader: Both now and ever, and unto ages of ages. Amen.
+
+
+%\textbf{\large\emph{Choir sings the hymn of Justinian (`Only begotten...')}}
+\lilypondfile[staffsize=18]{lilypond_files/separate/Only_begotten.ly}
+
+
+\subsection*{The Second Little Litany}
+
+Deacon: Again and again in peace let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O God, by Thy
+grace.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: Calling to remembrance our all-holy, immaculate, most blessed and
+glorious Lady Theotokos and ever-virgin Mary\ldots{}
+
+\textbf{Choir: }\emph{(while Deacon continues\ldots{})}
+
+\lilypondfile[staffsize=18]{lilypond_files/Most_Holy_Theotokos.ly}
+
+Deacon: \ldots{}with all the saints, let us commend ourselves and each other and
+all our life unto Christ our God.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+\emph{Meanwhile the priest says quietly the prayer of the second Antiphon
+ending aloud with\ldots{}}
+
+Priest: For Thou art a good God and lovest mankind and unto Thee we ascribe
+glory, to the Father, and to the Son, and to the Holy Spirit, now
+and ever, and unto ages of ages.
+
+Choir: Amen.
+
+
+%\textbf{\large\emph{Choir sings the Beatitudes}}
+%\subsection*{The Third Antiphon}
+\lilypondfile[staffsize=18]{lilypond_files/separate/Beatitudes.ly}
+
+
+\subsection*{The Little Entrance}
+
+\emph{The Holy Gospel is brought through the congregation and in front
+of the Royal Doors. The priest and deacon pray quietly, followed by:}
+
+Deacon: Wisdom, Stand Upright!
+
+%\textbf{\large\emph{Choir sings the Entrance Hymn}}
+\lilypondfile[staffsize=18]{lilypond_files/separate/O_come_let_us_worship.ly}
+
+\subsection*{Troparia and Kontakia}
+
+\textbf{\large\emph{The Choir chants the appointed troparia.}}
+
+\emph{If there is one kontakion\ldots{}}
+
+Reader: Glory to the Father, and to the Son, and to the Holy Spirit, now
+and ever and unto ages of ages. Amen.
+
+\emph{If there is more than one kontakion\ldots{}}
+
+Reader: Glory to the Father, and to the Son, and to the Holy Spirit.
+
+\textbf{\large\emph{The Choir chants the appointed kontakia.} \emph{(except the last)}}
+
+\emph{If there is more than one kontakion\ldots{}}
+
+Reader: Now and ever, and unto the ages of ages. Amen.
+
+\textbf{\large\emph{The Choir chants the final kontakion.}}
+\cleardoublepage
+
+
+Deacon: Let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+
+%\subsection*{The Trisagion \emph{(or appropriate substitution)}}
+
+Priest: For holy are Thou, O our God, and unto Thee we ascribe glory: to
+the Father, and to the Son, and to the Holy Spirit, now and ever,
+
+Deacon: \ldots{}and unto ages of ages.
+
+%\textbf{\large\emph{Choir sings the thrice-holy hymn}}
+\lilypondfile[staffsize=18]{lilypond_files/Holy_God.ly}
+%\cleardoublepage
+
+
+\subsection*{The Epistle}
+
+Deacon: Let us attend.
+
+Priest: Peace be to all.
+
+Reader: And to thy spirit.
+
+Deacon: Wisdom.
+
+Reader: The Prokeimenon\ldots{}
+
+\textbf{\large\emph{Reader and choir chant the prokeimenon.}}
+
+Deacon: Wisdom.
+
+Reader: The Reading is from \ldots{}
+
+Deacon: Let us attend.
+
+\emph{The Epistle is read.}
+
+Priest: Peace be to you, reader.
+
+Reader: And to thy spirit.
+
+Deacon: Wisdom!
+
+%\textbf{\large\emph{Choir sings the `Alleluia'}}
+\lilypondfile[staffsize=18]{lilypond_files/Alleluia.ly}
+%\cleardoublepage
+
+\subsection*{The Gospel}
+
+Deacon: Wisdom! Stand Upright! Let us hear the Holy Gospel.
+
+Priest: Peace be unto all.
+
+\lilypondfile[staffsize=18]{lilypond_files/And_to_thy_spirit.ly}
+
+Deacon: The reading from the Holy Gospel according to N.
+
+\lilypondfile[staffsize=18]{lilypond_files/Glory_to_thee.ly}
+
+Priest: Let us attend!
+
+\emph{The deacon now reads the Holy Gospel.}
+
+Priest: Peace be unto you who have proclaimed the Gospel.
+
+\textbf{Choir: Glory to Thee, O Lord, glory to Thee.}
+
+
+\subsection*{The Sermon}
+
+\emph{If there is to be a sermon it is preached at this point.}
+
+
+\subsection*{The Litany of Fervent Supplication}
+
+Deacon: Let us all say with our whole soul and with our whole mind, let us say:
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: O Lord almighty, the God of our fathers, we pray Thee, hearken
+and have mercy.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: Have mercy on us, O God, according to Thy great mercy, we pray
+Thee, hearken and have mercy.
+
+\textbf{Choir: Lord, have mercy. Lord, have mercy. Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: Again we pray for our Metropolitan N. {[}or Archbishop N.{]} {[}or
+Bishop N.{]}
+
+\textbf{Choir: Lord, have mercy. Lord, have mercy. Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: Again we pray for our brethren: the priests, hieromonks, deacons,
+and monastics and all our brotherhood in Christ.
+
+\textbf{Choir: Lord, have mercy. Lord, have mercy. Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: Again we pray for mercy life, peace, health, salvation and visitation
+and pardon and forgiveness of sins for all Orthodox Christians, who
+live and dwell in this community.
+
+\textbf{Choir: Lord, have mercy. Lord, have mercy. Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: Again we pray for the blessed and ever-memorable, founders of this
+holy church: and for all our fathers and brethren, the Orthodox departed
+this life before us, who here and in all the world lie asleep in the
+Lord.
+
+\textbf{Choir: Lord, have mercy. Lord, have mercy. Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: Again we pray for them that bear fruit and do good works in this
+holy and all-venerable temple; for those who serve and those who sing,
+and all the people here present, who await of Thy great and rich mercy.
+
+\textbf{Choir: Lord, have mercy. Lord, have mercy. Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+\emph{Meanwhile the priest prays silently, ending aloud with\ldots{}}
+
+Priest: For Thou art a merciful God, and lovest mankind, and unto Thee
+we ascribe glory: to the Father, and to the Son, and to the Holy Spirit,
+now and ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+\subsection*{The Litany for the Catechumens}
+
+Deacon: Ye catechumens, pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+\emph{The deacon chants the following petitions while the choir chants
+repeatedly and softly \textquotedblleft{}Lord, have mercy\textquotedblright{}.}
+
+Deacon: Let us, the faithful, pray for the catechumens, that the Lord will
+have mercy on them. That He will teach them the word of truth. That
+He will reveal unto them the Gospel of righteousness. That He will
+unite them to His Holy, Catholic, and Apostolic Church. Save them,
+have mercy on them, help them, and keep them, O God, by Thy grace.
+
+Deacon: Ye catechumens, bow your heads unto the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+\emph{Meanwhile the priest prays silently,ending aloud with\ldots{}}
+
+Priest: That with us they may glorify Thine all-honourable and majestic
+name: of the Father, and of the Son, and of the Holy Spirit, now and
+ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+\emph{Aloud or silently:}
+
+Deacon: As many as are catechumens, depart. Depart, catechumens. As many
+as are catechumens, depart. Let none of the catechumens remain.
+
+
+\section*{The Liturgy of the Faithful}
+
+
+\subsection*{The First Litany of the Faithful}
+
+Deacon: As many as are of the faithful, again and again, in peace let us
+pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O God, by Thy
+grace.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: Wisdom!
+
+\emph{Meanwhile the priest prays silently, ending aloud with\ldots{}}
+
+Priest: For unto Thee are due all glory, honour and worship: to the Father,
+and to the Son, and to the Holy Spirit, now and ever and unto ages
+of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+\subsection*{The Second Litany of The Faithful}
+
+Deacon: Again and again in peace let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+\emph{The four following petitions are recited only if a deacon is
+serving:}
+
+Deacon: For the peace from above and for the salvation of our souls, let
+us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: For the peace of the whole world, for the good estate of the holy
+churches of God, and for the union of all men, let us pray to the
+Lord.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: For this holy house and for those who with faith, reverence, and
+fear of God, enter herein, let us pray to the Lord.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: For our deliverance from all tribulation, wrath, danger, and necessity,
+let us pray to the Lord.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O God, by Thy
+grace.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: Wisdom!
+
+\emph{Meanwhile the priest prays silently, and then\ldots{}}
+
+Priest: That guarded always by Thy might, we may ascribe glory unto Thee:
+to the Father, and to the Son, and to the Holy Spirit, now and ever,
+and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+\subsection*{The Cherubic Hymn}
+
+%\textbf{\large\emph{The Choir chants the first part of the Cherubic Hymn, repeatedly.}}
+\lilypondfile[staffsize=18]{lilypond_files/Cherubic_hymn-part1.ly}
+
+
+\subsection*{The Great Entrance}
+
+\emph{The Priest then chants petitions for the hierarchy and others
+according to need and custom, concluding with\ldots{}}
+
+Deacon: All of us, the Lord God remember in his kingdom, always, now and
+ever, and unto ages of ages.
+
+%\textbf{\large\emph{The Choir chants the second part of the Cherubic Hymn.}}
+\lilypondfile[staffsize=18]{lilypond_files/Cherubic_hymn-part2.ly}
+
+\emph{The Celebrants enter the sanctuary, place the Holy Gifts on
+the Altar and pray quietly.}
+%\cleardoublepage
+
+
+\subsection*{The Litany of Supplication}
+
+Deacon: Let us complete our prayer unto the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: For the precious gifts now set forth, let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: For this holy house, and for those who with faith, reverence, and
+fear of God enter therein, let us pray to the Lord.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: For our deliverance from all tribulation, wrath, danger and necessity,
+let us pray to the Lord.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 2)}}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O God, by Thy
+grace.
+
+\textbf{Choir: Lord, have mercy.}\textbf{\emph{(Response 1)}}
+
+Deacon: That the whole day may be perfect, holy, peaceful and sinless,
+let us ask of the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Grant_this.ly}
+
+Deacon: An angel of peace, a faithful guide, a guardian of our souls and
+bodies, let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: Pardon and forgiveness of our sins and transgressions, let us ask
+of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: All things that are good and profitable for our souls, and peace
+for the world, let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: That we may complete the remaining time of our life in peace and
+repentance, let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: A Christian ending to our life: painless, blameless, peaceful,
+and a good defence before the fearful judgement seat of Christ, let
+us ask.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: Calling to remembrance our all-holy, immaculate, most blessed and
+glorious Lady Theotokos and ever-virgin Mary\ldots{}
+
+\textbf{Choir: }\emph{(while Deacon continues\ldots{})}
+
+\lilypondfile[staffsize=18]{lilypond_files/Most_Holy_Theotokos.ly}
+
+Deacon: \ldots{}with all the saints, let us commend ourselves and each other and
+all our life unto Christ our God.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+\emph{Meanwhile the priest prays silently, ending aloud with\ldots{}}
+
+Priest: Through the compassion of Thine only-begotten Son, with Whom Thou
+art blessed, together with Thine all-holy, good, and life-giving Spirit,
+now and ever, and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+\subsection*{The Peace}
+
+Priest: Peace be unto all.
+
+\lilypondfile[staffsize=18]{lilypond_files/And_to_thy_spirit.ly}
+
+Deacon: Let us love one another, that with one mind we may confess:
+
+\lilypondfile[staffsize=18]{lilypond_files/Father_son_and_holy_spirit.ly}
+
+
+\subsection*{The Creed}
+
+Deacon: The doors! The doors! In wisdom, let us attend!
+
+\textbf{All: I believe in one God the Father almighty, Maker of heaven
+and earth, and of all things visible and invisible.}
+
+\textbf{And in one Lord Jesus Christ, the Son of God, the Only-begotten,
+begotten of the Father before all worlds; Light of Light, Very God
+of Very God, begotten, not made, of one essence with the Father, by
+whom all things were made. Who for us men and our salvation came down
+from heaven, and was incarnate of the Holy Spirit and the Virgin Mary,
+and was made man; and was crucified also for us under Pontius Pilate,
+and suffered and was buried; and on the third day He rose again according
+to the Scriptures; and ascended into heaven and sitteth at the right
+hand of the Father. And He shall come again with glory to judge the
+quick and the dead; whose kingdom shall have no end.}
+
+\textbf{And I believe in the Holy Spirit, the Lord and Giver of life,
+Who proceedeth from the Father, Who with the Father and the Son together
+is worshipped and glorified, Who spake by the prophets.}
+
+\textbf{And I believe in one Holy Catholic and Apostolic Church; I
+acknowledge one baptism for the remission of sins and I look for the
+resurrection of the dead and the life of the world to come. Amen.}
+
+
+\subsection*{The Anaphora}
+
+Deacon: Let us stand aright, let us stand with fear, let us attend, that
+we may offer the holy oblation in peace.
+
+\lilypondfile[staffsize=18]{lilypond_files/A_mercy_of_peace.ly}
+
+Priest: The grace of our Lord Jesus Christ, the love of God the Father,
+and the communion of the Holy Spirit be with you all.
+
+\lilypondfile[staffsize=18]{lilypond_files/And_with_thy_spirit.ly}
+
+Priest: Let us lift up our hearts.
+
+\lilypondfile[staffsize=18]{lilypond_files/We_lift_them_up.ly}
+
+Priest: Let us give thanks unto the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/It_is_meet.ly}
+
+\emph{Meanwhile the priest quietly begins the Anaphora, ending aloud
+with\ldots{}}
+
+Priest: Singing the triumphant hymn, shouting, proclaiming and saying:
+
+\lilypondfile[staffsize=18]{lilypond_files/Holy_holy_holy.ly}
+
+\emph{The priest quietly continues the Anaphora, and then\ldots{}}
+
+Priest: Take! Eat! This is My Body which is broken for you, for the forgiveness
+of sins.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+Priest: And likewise, after supper, He took the cup saying: Drink of this,
+all of you! This is My Blood of the new covenant, which is shed for
+you and for many, for the forgiveness of sins!
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+Priest: Having in remembrance, therefore, this saving commandment and all
+those things which have come to pass for us: the Cross, the Grave,
+the Third-day Resurrection, the Ascension into heaven, the Sitting
+at the right hand, and the second and glorious Coming: Thine own of
+Thine own we offer unto Thee, in behalf of all and for all.
+
+\lilypondfile[staffsize=18]{lilypond_files/We_praise_thee.ly}
+
+Priest: Again we offer unto Thee this rational and bloodless worship, and
+beseech Thee, and pray Thee, and supplicate Thee: Send down Thy Holy
+Spirit upon us and upon these Gifts here spread forth. And make this
+Bread the precious Body of Thy Christ.
+
+Deacon: \emph{(Quietly)} Amen.
+
+Priest: And that which is in this Cup, the precious Blood of Thy Christ.
+
+Deacon: \emph{(Quietly)} Amen.
+
+Priest: Changing them by Thy Holy Spirit.
+
+\textbf{All: Amen! Amen! Amen!}
+
+\emph{Meanwhile the priest prays silently, ending aloud with\ldots{}}
+
+Priest: Especially for our all-holy, immaculate, most blessed and glorious
+Lady Theotokos and ever-virgin Mary.
+
+
+\lilypondfile[staffsize=18]{lilypond_files/It_is_truly_right.ly}
+%\textbf{\emph{The choir sings the hymn to the Theotokos}}
+
+\emph{During the singing of the above hymn, the Priest continues praying,
+ending aloud with\ldots{}}
+
+Priest: Among the first, be mindful, O Lord, Our metropolitan \emph{N;
+{[}or our bishop N.{]}} whom do thou grant them unto Thy holy churches
+in peace, safety, honour, health, and length of days, rightly to dividing
+the word of Thy truth.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+\emph{The following is chanted only if a deacon is serving:}
+
+Deacon: And for those of us who offer these precious and holy gifts to
+the Lord our God, the honourable presbytery, the diaconate in Christ
+and every priestly order and for their salvation, for the peace and
+stability of the whole world, the good estate of the holy churches
+of God, and help of the people here present, those whom they are remembering,
+and of all mankind.
+
+\lilypondfile[staffsize=18]{lilypond_files/And_of_all_mankind.ly}
+
+Priest: Be mindful, O Lord, of the city in which we dwell, and of every
+city and countryside; those who in faith dwell therein. Be mindful,
+O Lord, of those who travel sea, by land, and by air; the sick, the
+suffering; the captive, and their salvation. Be mindful, O Lord, of
+those who bear fruit and do good works in Thy holy churches; and who
+remember the poor; and upon us all send forth Thy mercies. And grant
+us with one mouth and one heart to glorify and praise Thine all-honourable
+and majestic name: of the Father, and of the Son, and of the Holy
+Spirit, now and ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+Priest: And the mercies of our great God and Saviour Jesus Christ be with
+all of you.
+
+\lilypondfile[staffsize=18]{lilypond_files/And_with_thy_spirit.ly}
+
+
+\subsection*{The Litany Before the Lord\textquoteright{}s Prayer}
+
+Deacon: Having commemorated all the saints, again and again, in peace let
+us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-1.ly}
+
+Deacon: For the precious Gifts which have been set forth and sanctified,
+let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: That our God Who loveth mankind, receiving them upon His holy,
+most heavenly, and ideal altar as a savour of spiritual sweetness,
+will send down upon us in return His divine grace and the gift of
+the Holy Spirit, let us pray to the Lord.
+
+\textbf{Choir: Lord, have mercy. }\textbf{\emph{(Response 1)}}
+
+Deacon: For our deliverance from all tribulation, wrath, danger, and necessity,
+let us pray to the Lord.
+
+\textbf{Choir: Lord, have mercy. }\textbf{\emph{(Response 2)}}
+
+Deacon: Help us, save us, have mercy on us and keep us, O God, by Thy grace.
+
+\textbf{Choir: Lord, have mercy. }\textbf{\emph{(Response 1)}}
+
+Deacon: That the whole day may be perfect, holy, peaceful, and sinless,
+let us ask of the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Grant_this.ly}
+
+Deacon: An angel of peace, a faithful guide, a guardian of our souls and
+bodies, let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: Pardon and forgiveness of our sins and transgressions,
+let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: All things good and profitable for our souls, and peace for the
+world, let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: That we may complete the remaining time of our life in peace and
+repentance, let us ask of the Lord.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: A Christian ending to our life: painless, blameless, and peaceful,
+and a good defence before the fearful judgement seat of Christ, let
+us ask.
+
+\textbf{Choir: Grant this, O Lord.}
+
+Deacon: Asking for the unity of the faith and the communion of the holy
+Spirit, let us commend ourselves and one another and all our life
+unto Christ our God.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+\emph{Meanwhile the priest prays silently, ending aloud with\ldots{}}
+
+Priest: And vouchsafe, O Master, that with boldness and without condemnation
+we may dare to call upon Thee, the heavenly God, as Father, and to
+say:
+
+
+\subsection*{The Lord\textquoteright{}s Prayer}
+
+\textbf{All: Our Father, Who art in heaven, hallowed be Thy name;
+Thy kingdom come; Thy will be done on earth as it is in heaven. Give
+us this day our daily bread, and forgive us our debts, as we forgive
+our debtors and lead us not into temptation, but deliver us from the
+evil one.}
+
+\emph{The Lord\textquoteright{}s Prayer is recited in the first language of all members
+of the congregation, concluding with\ldots{}}
+
+Priest: For Thine is the kingdom, and the power, and the glory, of the
+Father, and of the Son, and of the Holy Spirit, now and ever, and
+unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+Priest: Peace be to all.
+
+\lilypondfile[staffsize=18]{lilypond_files/And_to_thy_spirit.ly}
+
+Deacon: Bow your heads unto the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+Priest: We give thanks unto Thee, O King invisible, Who by Thy boundless
+power hast made all things, and in the multitude of Thy mercy hast
+brought all things from nothingness into being. Do Thou Thyself, O
+Master, look down from heaven, upon those who have bowed their heads
+unto Thee, the fearful God. Therefore, O Master, do Thou Thyself distribute
+these Gifts here spread forth, unto all of us for good, according
+to the individual need of each, voyage with those who sail by sea,
+journey with those who travel by land and by air; heal the sick, O
+Thou Who art the physician of our souls and bodies. Through the grace
+and compassion and love toward mankind of Thine only-begotten Son,
+with Whom Thou art blessed, together with Thine all-holy, good, and
+life-creating Spirit, now and ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+\emph{Meanwhile the priest prays silently.}
+
+Deacon: Let us attend.
+
+Priest: The Holy things are for the holy.
+
+\lilypondfile[staffsize=18]{lilypond_files/One_is_holy.ly}
+
+
+\subsection*{The Communion of the Clergy}
+
+\emph{When the warm water has been added to the Chalice from the Zeon
+and the server has placed the candle before the Royal Doors\ldots{}}
+
+%\textbf{\large\emph{The Choir sings the communion hymn.}}
+\lilypondfile[staffsize=18]{lilypond_files/Praise_the_Lord_from_the_heavens.ly}
+\cleardoublepage
+
+
+\textbf{All: I believe, O Lord, and I confess that Thou art truly
+the Christ, the Son of the living God, Who didst come into the world
+to save sinners, of whom I am chief. And I believe that this is truly
+Thine own immaculate Body, and that this is truly Thine own precious
+Blood. Wherefore, I pray Thee: have mercy upon me and forgive my transgressions,
+both voluntary and involuntary, of word and of deed, of knowledge
+and of ignorance; and make me worthy to partake without condemnation
+of Thine immaculate Mysteries, unto remission of my sins and unto
+life everlasting. Amen.}
+
+\textbf{Of Thy Mystic Supper, O Son of God, accept me today as a communicant;
+for I will not speak of Thy Mystery to Thine enemies, neither will
+I give Thee a kiss as did Judas; but like the thief will I confess
+Thee: Remember me, O Lord, in Thy Kingdom.}
+
+\textbf{Not unto judgement, nor unto condemnation be my partaking
+of thy Holy Mysteries, O Lord, but unto the healing of soul and body.}
+
+
+\subsection*{Communion of The Faithful}
+
+\emph{The Celebrants divide the portions NI and KA of the Holy Lamb
+and put them into the chalice for the communion of the people; if
+a deacon is serving, the following is recited aloud:}
+
+Deacon: In that we have beheld the Resurrection of Christ, let us worship
+the Holy Lord Jesus, the only sinless One. Thy Cross do we adore,
+O Christ, and Thy holy Resurrection we praise and glorify: for Thou
+art our God, and we know none other beside Thee; we call upon Thy
+name. O come, all ye faithful, let us adore Christ\textquoteright{}s
+holy Resurrection, for, lo, through the Cross is joy come into all
+the world. Ever blessing the Lord, let us sing His Resurrection; for
+in that he endured the cross for us He hath destroyed death by death.
+
+Shine, shine, O new Jerusalem, for the glory of the Lord hath dawned
+upon thee; dance and be glad, O Zion; and delight thou, O pure Theotokos,
+in the rising of thy Son. How divine! How beloved! How sweet is thy
+voice, O Christ! For Thou has faithfully promised to be with us to
+the end of the age. Having this as our anchor of hope, we the faithful
+do rejoice.
+
+O Christ, great and most holy Pascha! O Wisdom, Word and power of
+God! Grant that we may more perfectly partake of Thee in the never-ending
+day of Thy kingdom.
+
+\emph{The chalice is covered with a veil. And the deacon takes the
+chalice and goes through the Royal Doors, saying:}
+
+Deacon: With fear of God, and faith and love draw near!
+
+\lilypondfile[staffsize=18]{lilypond_files/Blessed_is_he.ly}
+
+\emph{While the Faithful receive communion the choir generally sings
+at least the following:}
+
+%\lilypondfile[staffsize=18]{lilypond_files/Receive_the_body.ly}
+\textbf{\emph{The choir sings an appropriate hymn during communion}}
+\cleardoublepage
+
+\emph{After all have been communicated, the priest says:}
+
+Priest: O God, save Thy people and bless Thine inheritance.
+
+\lilypondfile[staffsize=18]{lilypond_files/We_have_seen.ly}
+
+\emph{Then the priest gives up the censer and passes the diskos to
+the deacon, who passing the front of the holy table, carries it to
+and places it on the prothesis table. The priest lifts the chalice,
+and faces the people, saying:}
+ 
+Priest: Blessed is our God, always, now and ever, and unto the ages of
+ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Let_our_mouth.ly}
+
+\subsection*{The Litany of Thanksgiving}
+
+Deacon: Stand Upright! Having partaken of the divine, holy, most pure,
+immortal, heavenly, and life-creating, fearful Mysteries of Christ,
+let us worthily give thanks unto the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Deacon: Help us, save us, have mercy on us, and keep us, O God, by Thy
+grace.
+
+\textbf{Choir: Lord, have mercy.}
+
+Deacon: Asking that the whole day may be perfect, holy, peaceful, and sinless,
+let us commend ourselves and one another, and all our life unto Christ
+our God.
+
+\lilypondfile[staffsize=18]{lilypond_files/To_Thee.ly}
+
+Priest: We give thanks unto Thee \ldots{} \emph{(The Liturgy of St John Chrysostom
+and that of St Basil have differing texts here)} \ldots{} For Thou art
+our Sanctification, and unto Thee we ascribe glory: to the Father,
+and to the Son, and to the Holy Spirit, now and ever and unto ages
+of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+
+\subsection*{The Prayer Before The Ambo}
+
+Priest: Let us depart in peace.
+
+\lilypondfile[staffsize=18]{lilypond_files/In_the_name_of_the_Lord.ly}
+
+Deacon: Let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Priest: O Lord, Who blessest those who bless Thee, and sanctifiest those
+who put their trust in Thee: save Thy people and bless Thine inheritance.
+Preserve the fullness of Thy Church. Sanctify those who love the beauty
+of Thy house; glorify them in recompense by Thy divine power, and
+forsake us not who hope in Thee. Give peace to Thy world, to Thy churches,
+to Thy priests, to the civil authorities, to the armed forces, and
+to all Thy people; for every good gift and every perfect gift is from
+above, and cometh down from Thee, the Father of Lights, and unto Thee
+we ascribe glory, thanksgiving, and worship: to the Father, and to
+the Son, and to the Holy Spirit, now and ever and unto ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Blessed_be_the_name.ly}
+
+Priest: O Christ our God, Who art Thyself the fulfilment of the law and
+the prophets, Who didst fulfil all the dispensation of the Father,
+fill our hearts with joy and gladness, always, now and ever, and unto
+ages of ages. Amen.
+
+Deacon: Let us pray to the Lord.
+
+\lilypondfile[staffsize=18]{lilypond_files/Lord_have_mercy-1-2.ly}
+
+Priest: The blessing of the Lord and His mercy come upon you through His
+divine grace and love toward mankind, always, now and ever, and unto
+ages of ages.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+Priest: Glory to Thee, O Christ our God and our hope, glory to Thee!
+
+\lilypondfile[staffsize=18]{lilypond_files/Glory_to_the_father.ly}
+
+Priest: May [\emph{On Sunday:} He Who rose from the dead,] Christ our true
+God, through the prayers of His all-immaculate and all-blameless holy
+Mother; by the might of the precious and life-giving Cross; by the
+protection of the honourable bodiless powers of heave; at the supplications
+of the honourable, glorious Prophet, Forerunner and Baptist, John,
+of the holy, glorious, and all-laudable apostles; of our father among
+the saints, John Chrysostom, archbishop of Constantinople, {[}or Basil
+of Caesarea{]} whose Liturgy we keep, of the holy glorious and right-victorious
+martyrs, of our venerable and God-bearing fathers; of Saint Constantine,
+patron of this parish, of the holy and righteous Ancestors of God,
+Joachim and Anna; of Saint NN, whose memory we celebrate; and of all
+the saints: have mercy on us and save us, for as much as He is good
+and loveth mankind.
+
+Through the prayers of our holy fathers, Lord Jesus Christ our God,
+have mercy and save us.
+
+\lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
+
+Priest: The Holy Trinity keep all of you.
+
+\lilypondfile[staffsize=18]{lilypond_files/Unto_him.ly}
+
+\emph{Parish notices may be given out now. The Faithful come to venerate
+the Cross and receive the Antidoron Bread whilst the Reader chants
+the Thanksgiving Prayers.}
+
+\emph{N.B. When the last person has received, the Reader pauses at
+some convenient point and the priest says:}
+
+Priest: The blessing of the Lord and His mercy come upon you through His
+divine grace and love toward mankind, always, now and ever, and unto
+ages of ages. Amen.
+\end{document}

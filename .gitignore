@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.eps
+*.dep
+*.tex
+*.texi
+lily-*
+snippet-*.ly

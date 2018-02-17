@@ -1,0 +1,25 @@
+tenorVoice = \relative c' {
+  \global
+  \dynamicUp
+  \clef "treble_8"
+  % Music follows here.
+  \notes
+}
+
+verse = \lyricmode {
+  % Lyrics follow here.
+  \text
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = \markup \bold "Choir:"
+  }
+  {
+    %#(set-accidental-style 'neo-modern 'Score)
+    \cadenzaOn
+    \tenorVoice
+  }
+  \addlyrics { \verse }
+  \layout { }
+}
