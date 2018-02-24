@@ -1,7 +1,7 @@
 \include "global_include.ly"
 
-sopranoVoice = \relative c' {
-  f4 f g2 f1
+sopranoVoice = \relative c'' {
+  a4 a bf2 a1
 }
 
 altoVoice = \relative c' {

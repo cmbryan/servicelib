@@ -139,7 +139,7 @@ ages of ages.
 \lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
 
 
-\lilypondfile[staffsize=18]{lilypond_files/separate/1st_Antiphon.ly}
+\lilypondfile[staffsize=18]{lilypond_files/1st_Antiphon.ly}
 %\textbf{\large\emph{Choir sings the first antiphon}}
 %\cleardoublepage
 
@@ -179,13 +179,13 @@ now and ever and unto ages of ages.
 Reader: Glory to the Father, and to the Son, and to the Holy Spirit.
 
 %\textbf{\large\emph{Choir sings the second antiphon}}
-\lilypondfile[staffsize=18]{lilypond_files/separate/2nd_Antiphon.ly}
+\lilypondfile[staffsize=18]{lilypond_files/2nd_Antiphon.ly}
 
 Reader: Both now and ever, and unto ages of ages. Amen.
 
 
 %\textbf{\large\emph{Choir sings the hymn of Justinian (`Only begotten...')}}
-\lilypondfile[staffsize=18]{lilypond_files/separate/Only_begotten.ly}
+\lilypondfile[staffsize=18]{lilypond_files/Only_begotten.ly}
 
 
 \subsection*{The Second Little Litany}
@@ -223,7 +223,7 @@ Choir: Amen.
 
 %\textbf{\large\emph{Choir sings the Beatitudes}}
 %\subsection*{The Third Antiphon}
-\lilypondfile[staffsize=18]{lilypond_files/separate/Beatitudes.ly}
+\lilypondfile[staffsize=18]{lilypond_files/Beatitudes.ly}
 
 
 \subsection*{The Little Entrance}
@@ -234,7 +234,7 @@ of the Royal Doors. The priest and deacon pray quietly, followed by:}
 Deacon: Wisdom, Stand Upright!
 
 %\textbf{\large\emph{Choir sings the Entrance Hymn}}
-\lilypondfile[staffsize=18]{lilypond_files/separate/O_come_let_us_worship.ly}
+\lilypondfile[staffsize=18]{lilypond_files/O_come_let_us_worship.ly}
 
 \subsection*{Troparia and Kontakia}
 
@@ -493,7 +493,7 @@ and unto ages of ages.
 \lilypondfile[staffsize=18]{lilypond_files/Amen_short.ly}
 
 
-\subsection*{The Cherubic Hymn}
+%\subsection*{The Cherubic Hymn}
 
 %\textbf{\large\emph{The Choir chants the first part of the Cherubic Hymn, repeatedly.}}
 \lilypondfile[staffsize=18]{lilypond_files/Cherubic_hymn-part1.ly}

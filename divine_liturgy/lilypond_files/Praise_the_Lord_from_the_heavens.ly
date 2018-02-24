@@ -1,10 +1,13 @@
 \include "global_include.ly"
 
 sopranoVoice = \relative c'' {
+  bf4 c d c d e2 d1 \bar "|"
+  d4( c d e) d2 c4 bf c2 bf1 \bar "|"
+  bf4 c d d c d e2 d1 \bar "|"
+  d4( c d e d2) c4( bf) c2 bf1 \bar "||"
 }
 
 altoVoice = \relative c'' {
-  \stemNeutral
   g4 a bf a bf c2 bf1 \bar "|"
   bf4( a bf c) bf2 a4 g a2 g1 \bar "|"
   g4 a bf bf a bf c2 bf1 \bar "|"

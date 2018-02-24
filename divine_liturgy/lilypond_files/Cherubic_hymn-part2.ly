@@ -1,5 +1,5 @@
 \include "global_include.ly"
-  
+
   \header {
     title = "The Cherubic Hymn"
     subtitle = "Part 2"
@@ -8,17 +8,22 @@
 
 sopranoVoice = \relative c'' {
   a2 a \bar "||"
-}
-
-altoVoice = \relative c' {
-  f2 f2 \bar "||"
-  \stemNeutral
   a4( g8[ f] g4) a f4( g) a( bf) c( bf8[ a] g2) \bar "|"
   g8[( a]) bf[( c]) a4 g8[ a] f2 \bar "|" g8[( a g f]) e4 d8[( e]) f2 \bar "|"
   a8[( d]) c d a4 bf c( bf8[ a]) g2 \bar "|" g8[( a)] bf c a4 g8([ a]) f4 f2 \bar "|"
   g8[( a]) g f e2( f4) g a2(~ a8[ bf a g] f4 e) f2 \bar "|"
   a8[( d c d] a4) bf c bf8[( a]) g2 \bar "|" g8[( a bf]) c a4 g8[( a]) f2 \bar "|"
   g8[( a g]) f e2( f4 g a2~ a8[ bf a g] f4) e f2 \bar "||"
+}
+
+altoVoice = \relative c' {
+  f2 f2 \bar "||"
+  f4( e8[ d] e4) f d4( e) f( g) a( g8[ f] e2) \bar "|"
+  e8[( f]) g[( a]) f4 e8[ f] d2 \bar "|" e8[( f e d]) c4 bf8[( c]) d2 \bar "|"
+  f8[( bf]) a bf f4 g a( g8[ f]) e2 \bar "|" e8[( f)] g a f4 e8([ f]) d4 d2 \bar "|"
+  e8[( f]) e d c2( d4) e f2(~ f8[ g f e] d4 c) d2 \bar "|"
+  f8[( bf a bf] f4) g a g8[( f]) e2 \bar "|" e8[( f g]) a f4 e8[( f]) d2 \bar "|"
+  e8[( f e]) d c2( d4 e f2~ f8[ g f e] d4) c d2 \bar "||"
 }
 
 tenorVoice = \relative c' {
@@ -35,7 +40,7 @@ bassVoice = \relative c {
   f4 f8 f f4 f f2 c
   c4 c8 c c4 c d d2
   a4 a8 a a2( d4) c f2~( f8[ e f g] a4) a, d2
-  
+
   f2. f4 f2 c
   c4. c8 f4 c d2
   a4. a8 a2( d4 c f2~ f8[ e f g] a4) a, d2

@@ -1,12 +1,6 @@
 \include "global_include.ly"
 
-sopranoVoice = \relative c'' {
-}
-
-altoVoice = \relative c' {
-  %melody adapted from slavonic liturgy by cmbryan
-  \time 4/4
-  \stemNeutral
+sopranoVoice = \relative c' {
   \partial 2 e4 e
   f( a g) f
   e2 f4( g)
@@ -16,7 +10,7 @@ altoVoice = \relative c' {
   e e e e
   f( a g f)
   e2 r2
-  
+
   a4 a g a
   bf a8 bf c4 bf
   a4 a a g
@@ -37,7 +31,7 @@ altoVoice = \relative c' {
   \time 4/4
   f a g f
   e2.
-  
+
   a4
   a2 g
   f4 e f( g)
@@ -45,7 +39,51 @@ altoVoice = \relative c' {
   a2 a4 g
   f( a g f
   e2) g
+  f1 \bar "||"
+}
+
+altoVoice = \relative c' {
+  %melody adapted from slavonic liturgy by cmbryan
+  \time 4/4
+  \partial 2 cs4 cs
+  d( f e) d
+  cs2 d4( e)
+  f( a g) f
+  e4 e f e
+  d( f e d)
+  cs cs cs cs
+  d( f e d)
+  cs2 r2
+
+  f4 f e f
+  g f8 g a4 g
+  f4 f f e
+  d2 cs
+  d4( f e d
+  cs2.) cs4
+  e8 e e4 f e
+  d( f e) d
+  cs2 cs4 d8[ e]
+  d4( f e) d
+  cs f e f
+  g f8[ g] a4 g
   f1
+  f4 f f e
+  d2 cs
+  \time 2/4
+  cs4 cs
+  \time 4/4
+  d f e d
+  cs2.
+
+  f4
+  f2 e
+  d4 cs d( e)
+  f1
+  f2 f4 e
+  d( f e d
+  cs2) e
+  d1
 }
 
 tenorVoice = \relative c' {

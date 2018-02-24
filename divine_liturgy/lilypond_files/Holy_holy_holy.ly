@@ -1,15 +1,10 @@
 \include "global_include.ly"
 
 sopranoVoice = \relative c'' {
-}
-
-altoVoice = \relative c'' {
-	\time 3/4
-	\stemNeutral
   a4 a2 g4 g2
   \time 4/4
   f4( a g f) e2 f4 g a( c bf) a g1
-  
+
   a8[ g f e] f4 a
   \time 2/4
   bf8[ a] g[ f]
@@ -19,7 +14,7 @@ altoVoice = \relative c'' {
   a4 a8 a g4 a
   bf4 a8[ bf] c4( bf)
   a1
-  
+
   a4 a8 a g4 a
   bf4 a8[ bf] c4 bf
   a2 a8[ g] bf[ a]
@@ -27,6 +22,31 @@ altoVoice = \relative c'' {
   a8[ g f e] f4( a)
   bf8[ a] g[ f] e2
   f1
+}
+
+altoVoice = \relative c'' {
+  \time 3/4
+  f,4 f2 e4 e2
+  \time 4/4
+  d4( f e d) cs2 d4 e f( a g) f e1
+
+  f8[ e d cs] d4 f
+  \time 2/4
+  g8[ f] e[ d]
+  \time 4/4
+  cs2 cs4 cs
+  d4.( c8) d4 \breathe e
+  f4 f8 f e4 f
+  g4 f8[ g] a4( g)
+  f1
+
+  f4 f8 f e4 f
+  g4 f8[ g] a4 g
+  f2 f8[ e] g[ f]
+  e2. e4
+  f8[ e d cs] d4( f)
+  g8[ f] e[ d] cs2
+  d1
 }
 
 tenorVoice = \relative c' {
