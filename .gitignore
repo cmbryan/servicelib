@@ -6,3 +6,5 @@
 *.texi
 lily-*
 snippet-*.ly
+*.midi
+*.pdf
