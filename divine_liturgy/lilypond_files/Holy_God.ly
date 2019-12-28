@@ -8,8 +8,8 @@
   sopranoVoice = \relative c' {
     f2 f2\fermata
     f4( g a) f e1 e4( f g) e f2 f g4( a) bf g a2 g4 f g2 f4 e f1
-    f4 f\breve f4 f4 f\breve f4 f2\fermata
-    g4( a) bf g a2 g4 f g2 f4 e f2. b4\rest ^\markup {\italic "\"With strength!\""} \bar "||"
+    f4 f\breve f4 f4 f\breve f4 f2
+    g4( a) bf g a2 g4 f g2 f4 e f2. b4\rest ^\markup {\fermata\italic "\"With strength!\""} \bar "||"
 
 
     f4( g a) f e1 e4( f g) e f2 f g4( a) bf g a2 g4 f g2 f4 e f1
@@ -52,8 +52,8 @@
     d2. d4 a1
     a2. a4 d2 d
     c2 c4 c f2 cs4 d g,2 a4 a d1
-    d4 d\breve d4 d d\breve d4 d2\fermata
-    c2 c4 c f2 cs4 d g,2 a4 a d2. d4\rest
+    d4 d\breve d4 d d\breve d4 d2
+    c2 c4 c f2 cs4 d g,2 a4 a d2. d4\rest\fermata
 
     d2. d4 a1
     a2. a4 d2 d

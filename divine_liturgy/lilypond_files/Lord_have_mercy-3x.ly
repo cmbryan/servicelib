@@ -1,7 +1,7 @@
 \include "global_include.ly"
 
 sopranoVoice = \relative c'' {
-  a4^\markup \italic {while the deacon continues...} a\breve a4 bf2 a1
+  a4 a\breve a4 bf2 a1
 }
 
 altoVoice = \relative c' {
@@ -17,7 +17,9 @@ bassVoice = \relative c {
 }
 
 words = \lyricmode {
-  Most "Holy Theoto" -- kos, save us.
+  Lord, "have mercy,
+  Lord, have mercy,
+  Lord," have mer -- cy.
 }
 
 \include "global_score.ly"

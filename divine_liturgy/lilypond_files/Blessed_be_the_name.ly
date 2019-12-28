@@ -2,10 +2,9 @@
 
 sopranoVoice = \relative c' {
   f2 f1
-  \bar "|:"
-
+  \repeat volta 1 {
   g2 a f4 f f g a bf2 \bar "|"
-  a4 a a a g2 g f1 \bar ":|"
+  a4 a a a g2 g f1 }
 
   g2 a f4 f f g a bf2 \bar "|"
   a4 c( bf) a a g2 g f
@@ -13,10 +12,9 @@ sopranoVoice = \relative c' {
 
 altoVoice = \relative c' {
   d2 d1
-  \bar "|:"
 
   e2 f d4 d d e f g2 \bar "|"
-  f4 f f f e2 e d1 \bar ":|"
+  f4 f f f e2 e d1
 
   e2 f d4 d d e f g2 \bar "|"
   f4 a( g) f f e2 e d
@@ -27,7 +25,7 @@ tenorVoice = \relative c' {
 }
 
 bassVoice = \relative c {
-  f2 f1 \bar "|:"
+  f2 f1
   c2 f2 f4 f f e f bf,2
   f'4 f f f c2 c f1
 

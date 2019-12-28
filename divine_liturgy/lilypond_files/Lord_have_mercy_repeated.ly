@@ -1,15 +1,15 @@
 \include "global_include.ly"
 
 sopranoVoice = \relative c'' {
-  a4 a bf2 a1
+  a4^\markup \italic {Repeat under the deacon's prayer} a bf2 a1
 }
 
 altoVoice = \relative c' {
-  f4 f g2 f1 \bar "||"
+  \repeat volta 1 { f4 f g2 f1 }
 }
 
 tenorVoice = \relative c' {
-  a4 a bf2 a1
+  c4 c bf2 c1
 }
 
 bassVoice = \relative c {
