@@ -10,8 +10,8 @@ melodyNotes = \relative c'' {
   \stemNeutral
   \override Score.RehearsalMark #'self-alignment-X = #LEFT
 
-  \repeat volta 2 {
-    a4 a a( bf) g bf a r \bar "|"
+  \repeat volta 3 {
+    a4^\markup{"G"} a a( bf) g bf a r \bar "|"
     g g g( a) f g a r \bar "|"
     a b d c c c b( a) b b c b a r \bar "|"
     a a bf c bf a bf a g fs g2
