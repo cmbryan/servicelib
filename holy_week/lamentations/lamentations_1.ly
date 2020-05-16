@@ -14,7 +14,7 @@ melodyNotes = \relative c'' {
     a4^\markup{"G"} a a( bf) g bf a r \bar "|"
     g g g( a) f g a r \bar "|"
     a b d c c c b( a) b b c b a r \bar "|"
-    a a bf c bf a bf a g fs g2
+    a a bf c bf a bf a g fs g2 \break
   }
 }
 
