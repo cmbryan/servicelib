@@ -1,0 +1,961 @@
+\documentclass[12pt,a4paper,titlepage]{report}
+
+\usepackage{paracol}
+\usepackage{microtype} % needed for anything?
+\usepackage[OT2, T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english,russian]{babel}
+
+\listfiles % show included package versions
+\setlength{\parindent}{0pt} % Turn off paragraph indenting
+
+\title {
+  \selectlanguage{russian}Литургия Святителя Иоанна Златоустого ---
+  \selectlanguage{english}The Divine Liturgy of Saint John Chrysostom
+}
+\author {}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{paracol}[1]{2}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+  
+  \textbf{Deacon:} Master, give the blessing.
+
+  \textbf{Priest:} Blessed is the kingdom of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages. 
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Amen.ly}
+
+  \section*{The Great Litany}
+
+  \textbf{Deacon:} In peace let us pray to the Lord. 
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Lord_have_mercy-1.ly}
+
+  \textbf{Deacon:} For the peace from on high and for the salvation of our souls, let us pray to the Lord.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Lord_have_mercy-2.ly}
+
+  \textbf{Deacon:} For the peace of the whole world, for the stability of the holy Churches of God, and for the union of all, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 1)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For this holy house, and for those who enter it with faith, reverence and the fear of God, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 2)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For His Holiness, Patriarch KIRILL, for our bishop ELISEY, for the honourable order of presbyters, for the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 1)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For our Sovereign LADY, QUEEN ELIZABETH, the Royal Family, HER Government, and all in civil authority, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 2)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For this city \textit{(or town or village or holy monastery)}, for every city, town and village, and for the faithful who dwell in them, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 1)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For those who travel by land, air or water, for the sick, the suffering, for those in captivity, and for their safety and salvation, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 2)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For travelers by land, by sea, and by air, for the sick and the suffering, for captives, and for their salvation, let us pray to the Lord. 
+
+  \textbf{Choir:} \textit{(Response 1)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} For our deliverance from all affliction, wrath, danger and constraint, let us pray to the Lord.
+
+  \textbf{Choir:} \textit{(Response 2)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} Help us, save us, have mercy on us, and keep us, O God, by Thy grace.
+
+  \textbf{Choir:} \textit{(Response 1)} \textbf{Lord, have mercy.}
+
+  \textbf{Deacon:} Calling to remembrance our most holy, most pure, most blessed and glorious Lady, Mother of God and ever-virgin Mary, with all the saints, let us entrust ourselves and one another and our whole life unto Christ our God.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/To_thee.ly}
+
+  \textbf{Priest:} For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Amen-longer.ly}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+  
+  Диакон: Благослови, владыко.
+
+  Иерей: Благословенно Царство Отца, и Сына, и Святого Духа, и ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь.ly}
+  
+  \section*{Великая Eктения} 
+
+  Диакон: Миром Господу помолимся
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-1.ly}
+
+  Диакон: О свышнем мире и спасении душ наших Господу помолимся.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-2.ly}
+
+  Диакон: О мире всего мира, благостоянии Святых Божиих Церквей и соединении всех Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 1)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О святем храме сем и с верою, благоговением и страхом Божиим входящих в онь Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 2)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О Великом Господине ... честнем пресвитерстве, во Христе диаконстве, о всем причте и людех Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 1)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О Богохранимей стране нашей, властех и воинстве ея Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 2)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О граде сем, всяком граде, стране и верою живущих в них Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 1)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О благорастворении воздухов, о изобилии плодов земных и временех мирных Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 2)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О плавающих, путешествующих, недугующих, страждущих, плененных и о спасении их Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 1)}}} \textbf{Господи, помилуй.}
+
+  Диакон: О избавитися нам от всякия скорби, гнева и нужды Господу помолимся.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 2)}}} \textbf{Господи, помилуй.}
+
+  Диакон: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  \textbf{Хор:} \foreignlanguage{english}{\textit{\foreignlanguage{english}{(Response 1)}}} \textbf{Господи, помилуй.}
+
+  Диакон: Пресвятую, Пречистую, Преблагословенную, Славную Владычицу нашу Богородицу и Приснодеву Марию, со всеми святыми помянувше, сами себе и друг друга, и весь живот наш Христу Богу предадим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи.ly}
+
+  Иерей: Яко подобает Тебе всякая слава, честь и поклонение. Отцу, и Сыну, и Святому Духу, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь_longer.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{The 1st Antiphon---Psalm 102}
+  %\lilypondfile[staffsize=16]{lilypond-files/1st_antiphon.ly}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{1-й Антифон---Псалом 102}
+  %\lilypondfile[staffsize=16]{lilypond-files/1-й_антифон.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{The Little Litany}
+  
+  \textbf{Deacon:} Again and again in peace let us pray to the Lord.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Lord_have_mercy-short1.ly}
+
+  \textbf{Deacon:} Help us, save us, have mercy on us, and keep us, O God, by Thy grace.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Lord_have_mercy-short2.ly}
+
+  \textbf{Deacon:} Commemorating our most holy, most pure, most blessed and glorious Lady Theotokos and ever-virgin Mary with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/To_thee-short.ly}
+
+  \textbf{Priest:} For Thine is the majesty, and Thine is the Kingdom and the power and the glory: of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Amen-short.ly}
+  
+\switchcolumn[1]
+\selectlanguage{russian}
+
+\section*{Малая Ектения}
+
+  Диакон: Паки и паки миром Господу помолимся.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short1.ly}
+
+  Диакон: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short2.ly}
+
+  Диакон: Пресвятую, пречистую, преблагословенную, славную Владычицу нашу Богородицу и Приснодеву Марию, со всеми святыми помянувше, сами себе, и друг друга, и весь живот наш Христу Богу предадим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи-short.ly}
+
+  Иерей: Яко Твоя держава, и Твое есть Царство, и сила, и слава, Отца и Сына и Святого Духа, ныне и присно и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{The 2nd Antiphon---Psalm 145}
+  %\lilypondfile[staffsize=16]{lilypond-files/2nd_antiphon.ly}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{2-й Антифон---Псалом 145}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Hymn of Justinian}
+  %\lilypondfile[staffsize=16]{lilypond-files/Only_begotten.ly}
+  
+\switchcolumn[1]
+% \selectlanguage{russian}
+
+  Title?
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{The Little Litany}
+
+  \textbf{Deacon:} Again and again in peace let us pray to the Lord.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Lord_have_mercy-short1.ly}
+
+  \textbf{Deacon:} Help us, save us, have mercy on us, and keep us, O God, by Thy grace.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Lord_have_mercy-short2.ly}
+
+  \textbf{Deacon:} Commemorating our most holy, most pure, most blessed and glorious Lady Theotokos and ever-virgin Mary with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/To_thee-short.ly}
+
+  \textbf{Priest:} For Thou art a good God and lovest mankind, and unto Thee we ascribe glory: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Amen-short.ly}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Малая Ектения}
+
+  Диакон: Паки и паки миром Господу помолимся.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short1.ly}
+
+  Диакон: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short2.ly}
+
+  Диакон: Пресвятую, пречистую, преблагословенную, славную Владычицу нашу Богородицу и Приснодеву Марию, со всеми святыми помянувше, сами себе, и друг друга, и весь живот наш Христу Богу предадим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи-short.ly}
+
+  Иерей:  Яко благ и Человеколюбец Бог еси, и Тебе славу возсылаем, Отцу, и Сыну, и Святому Духу, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{The 3rd Antiphon---The Beatitudes}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{3-й Антифон---Блаженны}
+  %\lilypondfile[staffsize=16]{lilypond-files/3-й_антифон.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Entrance with the Gospel}
+
+  \textbf{Deacon:} Wisdom, let us attend.
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Вход с Евангелием}
+
+  Диакон: Премудрость, прости.
+  
+  %\lilypondfile[staffsize=16]{lilypond-files/Приидите.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \textbf{Deacon:} Wisdom, let us attend.
+  
+  \textit{Troparia and Kontakia}
+
+  \textbf{Priest:} For holy art Thou, O Lord our God, and unto Thee we ascribe glory, to the Father, and to the Son, and to the Holy Spirit,
+
+  \textbf{Deacon:} now and ever and unto ages.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Amen-short.ly}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  Диакон: Премудрость, прости.
+  
+  \textit{Тропари и кондаки}
+
+  Иерей: Яко свят еси, Боже наш, и Тебе славу возсылаем, Отцу, и Сыну, и Святому Духу, ныне и присно
+
+  Диакон: И во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Trisagion}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Трисвятое}
+  %\lilypondfile[staffsize=16]{lilypond-files/Трисвятое.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Epistle Reading}
+
+  \textbf{Priest:} Peace be unto all!
+
+  Reader: And to thy spirit.
+
+  \textbf{Deacon:} Wisdom!
+
+  \indent \textit{specific material...}
+
+  \textbf{Deacon:} Let us attend! 
+
+  \indent \textit{Epistle reading.}
+
+  \textbf{Priest:} Peace be unto you, the reader.
+
+  Reader: And to your spirit.
+
+  \textbf{Deacon:} Wisdom.
+
+  \textit{more specific material...}
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Alleluia.ly}
+
+  \textit{more specific material...}
+
+  \textbf{Choir: Alleluia, alleluia, alleluia.}
+
+  \textit{more specific material...}
+
+  \textbf{Choir: Alleluia, alleluia, alleluia.}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Чтение Апостола}
+
+  Иерей: Вонмем Мир всем.
+
+  Чтец Апостола: И духови твоему.
+
+  Иерей: Премудрость.
+
+  \indent \textit{По окончании чтения:}
+
+  Иерей: Вонмем.
+
+  \indent \textit{Читается Апостол. По окончании чтения:}
+
+  Иерей: Мир ти.
+
+  Чтец:  И духови твоему.
+
+  Иерей: Премудрость.
+
+  \textit{По окончании чтения:}
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аллилуиа.ly}
+
+  \textit{По окончании чтения:}
+
+  \textbf{Хор: Аллилуиа, аллилуиа, аллилуиа.}
+
+  \textit{По окончании чтения:}
+
+  \textbf{Хор: Аллилуиа, аллилуиа, аллилуиа.}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Gospel Reading}
+
+  \textbf{Priest:} Wisdom! Let us attend. Let us listen to the Holy Gospel. Peace be unto all.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/And_with_thy_spirit.ly}
+
+  \textbf{Deacon:} The reading from the Holy Gospel according to Saint ...
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Glory_to_thee.ly}
+
+  \textbf{Priest:} Let us attend!
+
+  \indent \textit{Gospel reading.}
+
+  \textbf{Choir: Glory to Thee, Lord, glory to Thee.}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Чтение Евангелия}
+
+  Иерей: Премудрость, прости, услышим святого Евангелиа. Мир всем.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_духови_твоему.ly}
+
+  Диакон: От ... Святаго Евангелия чтение 
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Слава_Тебе.ly}
+
+  Иерей: Вонмем.
+
+  \indent \textit{И читается Евангелие. По окончании чтения:}
+
+  \textbf{Хор: Слава Тебе, Господи, слава Тебе.}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+\section*{Сугубая ектения}
+
+  Диакон: Рцем вси от всея души и от всего помышления нашего рцем.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-1.ly}
+
+  Диакон: Господи Вседержителю, Боже отец наших, молим Ти ся, услыши и помилуй.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-2.ly}
+
+  Диакон: Помилуй нас, Боже, по велицей милости Твоей, молим Ти ся, услыши и помилуй.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-трижды-1.ly}
+
+  Диакон: Еще молимся о Великом Господине и Отце нашем Святейшем Патриархе Кирилле, и о Господине нашем Преосвященнейшем ..., и всей во Христе братии нашей.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-трижды-2.ly}
+
+  Диакон: Еще молимся о Богохранимей стране нашей, властех и воинстве ея, да тихое и безмолвное житие поживем во всяком благочестии и чистоте.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 1)}} \textbf{Господи, помилуй, Господи, помилуй, Господи, помилуй.}
+
+  Диакон: Еще молимся о братиях наших, священницех, священномонасех и всем во Христе братстве нашем.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 2)}} \textbf{Господи, помилуй, Господи, помилуй, Господи, помилуй.}
+
+  Диакон: Еще молимся о блаженных и приснопамятных святейших патриарсех православных и создателех святаго храма сего  и о всех прежде почивших отцех и братиях, зде лежащих и повсюду, православных.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 1)}} \textbf{Господи, помилуй, Господи, помилуй, Господи, помилуй.}
+
+  Диакон: Еще молимся о плодоносящих и добродеющих во святем и всечестнем храме сем, труждающихся, поющих и предстоящих людех, ожидающих от Тебе великия и богатая милости.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 2)}} \textbf{Господи, помилуй, Господи, помилуй, Господи, помилуй.}
+
+  Иерей: Яко милостив и Человеколюбец Бог еси, и Тебе славу возсылаем, Отцу, и Сыну, и Святому Духу, ныне, и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь_longer.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Litany for the Departed}
+  
+  \indent \textit {(optional, not normally said)}
+  
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Ектения о усопших}
+
+  \indent \textit {\foreignlanguage{english}{(optional, not normally said)}}
+
+  Диакон: Помилуй нас, Боже, по велицей милости Твоей, молим Ти ся, услыши и помилуй.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-усопших-1.ly}
+
+  Диакон: Еще молимся о упокоении души (душ) усопшаго (шия, ших) раба (ы, ов) Божия (ей, их) (имена рек) и о еже проститися ему (ей, им) всякому прегрешению, вольному же и невольному.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-усопших-2.ly}
+
+  Диакон: Яко да Господь Бог учинит душу (душы) его (ея, их), идеже праведнии упокояются.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-усопших-2.ly}
+
+  Диакон: Милости Божия, Царства Небеснаго и оставления грехов его (ея, их) у Христа, Безсмертнаго Царя и Бога нашего, просим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-усопших-2.ly}
+
+  Диакон: \textit{\foreignlanguage{english}{(underneath the choir)}} Господу, помилимся.
+
+  Иерей: Яко Ты еси Воскресение и живот, и покой усопшаго (шия, ших) раба (ы, ов) Твоего (ея, их) (имена рек), Христе Боже наш, и Тебе славу возсылаем, со Безначальным Твоим Отцем, и Пресвятым, и Благим, и Животворящим Твоим Духом, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь_longer.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Ектения за оглашенных}
+
+  Диакон: Помолитеся, оглашеннии Господеви.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short1.ly}
+
+  Диакон: Вернии, о оглашенных помолимся, да Господь помилует их.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short2.ly}
+
+  Диакон: Огласит их словом истины.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 1)}} \textbf{Господи, помилуй.}
+
+  Диакон: Открыет им Евангелие правды.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 2)}} \textbf{Господи, помилуй.}
+
+  Диакон: Соединит их Святей Своей Соборней и Апостольстей Церкви.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 1)}} \textbf{Господи, помилуй.}
+
+  Диакон: Спаси, помилуй, заступи и сохрани их, Боже, Твоею благодатию.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 2)}} \textbf{Господи, помилуй.}
+
+  Диакон: Оглашеннии, главы ваша Господеви приклоните.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи-short.ly}
+
+  Иерей: Да и тии с нами славят пречестное и великолепое имя Твое, Отца, и Сына, и Святаго Духа, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Ектения}
+
+  Диакон: Елицы оглашеннии, изыдите; оглашеннии, изыдите; елицы оглашеннии, изыдите. Да никто от оглашенных, елицы вернии, паки и паки миром Господу помолимся.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short1.ly}
+
+  Диакон: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-short2.ly}
+
+  Диакон: Премудрость.
+
+  Иерей: Яко подобает Тебе всякая слава, честь и поклонение. Отцу, и Сыну, и Святому Духу, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+  Диакон: Паки и паки миром Господу помолимся.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 1)}} \textbf{Господи, помилуй.}
+
+  Диакон: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  \textbf{Хор:} \textit{\foreignlanguage{english}{(Response 2)}} \textbf{Господи, помилуй.}
+
+  Диакон: Премудрость.
+
+  Иерей: Яко да под державою Твоею всегда храними, Тебе славу возсылаем, Отцу, и Сыну, и Святому Духу, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Херувимская песнь}
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Херувимская_песнь-part1.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+\section*{Великий вход}
+
+  Иерей: Великаго Господина и Отца нашего Алексия, Святейшаго Патриарха Московскаго и всея Руси, и Господина нашего Преосвященнейшаго (имя рек епархиального архиерея) митрополита (или: архиепископа, или: епископа) (титул епархиального архиерея), да помянет Господь Бог во Царствии Своем всегда, ныне и присно, и во веки веков.
+  Всех вас, православных христиан, да помянет Господь Бог во Царствии Своем всегда, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Херувимская_песнь-part2.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Просительная ектения.}
+
+  Диакон: Исполним молитву нашу Господеви.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-2nd_version.ly}
+
+  Диакон: О предложенных Честных Дарех Господу помолимся.
+
+  \textbf{Хор: Господи, помилуй.}
+
+  Диакон: О святем храме сем и с верою, благоговением и страхом Божиим входящих в онь Господу помолимся.
+
+  \textbf{Хор: Господи, помилуй.}
+
+  Диакон: О избавитися нам от всякия скорби, гнева и нужды Господу помолимся.
+
+  \textbf{Хор: Господи, помилуй.}
+
+  Диакон: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  \textbf{Хор: Господи, помилуй.}
+
+  Диакон: Дне всего совершенна, свята, мирна и безгрешна у Господа просим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Подай_Господи.ly}
+
+  Диакон: Ангела мирна, верна наставника, хранителя душ и телес наших у Господа просим.
+
+  \textbf{Хор: Подай, Господи.}
+
+  Диакон: Прощения и оставления грехов и прегрешений наших у Господа просим.
+
+  \textbf{Хор: Подай, Господи.}
+
+  Диакон: Добрых и полезных душам нашым и мира мирови у Господа просим.
+
+  \textbf{Хор: Подай, Господи.}
+
+  Диакон: Прочее время живота нашего в мире и покаянии скончати у Господа просим.
+
+  \textbf{Хор: Подай, Господи.}
+
+  Диакон: Христианския кончины живота нашего, безболезненны, непостыдны, мирны, и добраго ответа на Страшнем судищи Христове просим.
+
+  \textbf{Хор: Подай, Господи.}
+
+  Диакон: Пресвятую, Пречистую, Преблагословенную, Славную Владычицу нашу Богородицу и Приснодеву Марию, со всеми святыми помянувше, сами себе и друг друга, и весь живот наш Христу Богу предадим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи-2nd_version.ly}
+
+  Иерей: Щедротами Единороднаго Сына Твоего, с Нимже благословен еси, со Пресвятым и Благим и Животворящим Твоим Духом, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \textbf{Priest:} Peace be unto all!
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_духови_твоему-2nd_version.ly}
+  
+  \textbf{Priest:} Love one another, that with one mind we may confess.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Отца_и_Сына_и_Святого_Духа.ly}
+  
+  \section*{The Creed}
+  
+  \textbf{Deacon:} The Doors, the Doors! In wisdom, let us attend!
+
+  \textbf{Choir: I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not created, of one essence with the Father, through Whom all things were made. Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. He was crucified for us under Pontius Pilate, and suffered and was buried; And He rose on the third day, according to the Scriptures. He ascended into heaven and is seated at the right hand of the Father; And He will come again with glory to judge the living and the dead. His kingdom shall have no end. And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, Who together with the Father and the Son is worshipped and glorified, Who spoke through the prophets. In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. I look for the resurrection of the dead, and the life of the age to come. Amen.}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Пение Символа Веры}
+
+  Иерей: Мир всем.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_духови_твоему-2nd_version.ly}
+
+  Иерей: Возлюбим друг друга, да единомыслием исповемы.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Отца_и_Сына_и_Святого_Духа.ly}
+
+  Диакон: Двери, двери, премудрость вонмем.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Символа_Веры.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  Диакон: Станем добре, станем со страхом, вонмем, святое возношение в мире приносити.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Милость_мира.ly}
+
+  Иерей: Благодать Господа нашего Иисуса Христа, и любы Бога и Отца, и причастие Святаго Духа буди со всеми вами.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_со_духом_твоим.ly}
+
+  Иерей: Горе имеим сердца.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Имамы_ко_Господу.ly}
+
+  Иерей: Благодарим Господа.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Достойно.ly}
+
+  Иерей: Победную песнь поюще, вопиюще, взывающе и глаголюще.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Свят_свят.ly}
+
+  Иерей: Приимите, ядите, Сие есть Тело Мое, еже за вы ломимое, во оставление грехов.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь_Достойно-1.ly}
+
+  Иерей: Пийте от нея вси, Сия есть Кровь Моя Новаго Завета, яже за вы и за многи изливаемая во оставление грехов.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь_Достойно-2.ly}
+
+  Иерей: Твоя от Твоих Тебе приносяще о всех и за вся.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_поем.ly}
+
+  Иерей: Изрядно о Пресвятей, Пречистей, Преблагословенней, Славней Владычице нашей Богородице и Приснодеве Марии.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Достойно_есть.ly}
+
+  Иерей: В первых помяни, Господи, Великаго Господина и Отца нашего Алексия, Святейшаго Патриарха Московскаго и всея Руси, и Господина нашего Преосвященнейшаго митрополита (или: архиепископа, или: епископа; титул епархиального архиерея), ихже даруй Святым Твоим Церквам в мире, целых, честных, здравых, долгоденствующих, право правящих слово Твоея истины.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_всех_1.ly}
+
+  Иерей: И даждь нам единеми усты и единем сердцем славити и воспевати пречестное и великолепое Имя Твое, Отца, и Сына, и Святаго Духа, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_всех_2.ly}
+
+  Иерей: И да будут милости Великаго Бога и Спаса нашего Иисуса Христа со всеми вами.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_всех_3.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  \section*{Litany}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Ектения}
+  
+  Диакон: Все святыя помянувше, паки и паки миром Господу помолимся.
+  
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-2nd_version.ly}
+  
+  Диакон: О принесенных и освященных Честных Дарех Господу помолимся.
+  
+  \textbf{Хор:} Господи, помилуй.
+  
+  Диакон: Яко да Человеколюбец Бог наш, приемь я во святый, и пренебесный, и мысленный Свой Жертвенник, в воню благоухания духовнаго, возниспослет нам Божественную благодать и дар Святаго Духа, помолимся.
+  
+  \textbf{Хор:} Господи, помилуй.
+  
+  Диакон:	О избавитися нам от всякия скорби, гнева и нужды Господу помолимся.
+  
+  \textbf{Хор:} Господи, помилуй.
+  
+  Диакон:	Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+  
+  \textbf{Хор:} Господи, помилуй.
+  
+  Диакон:	Дне всего совершенна, свята, мирна и безгрешна у Господа просим.
+  
+  Диакон:	Ангела мирна, верна наставника, хранителя душ и телес наших у Господа просим.
+  
+  %\lilypondfile[staffsize=16]{lilypond-files/Подай_Господи.ly}
+  
+  Диакон:	Прощения и оставления грехов и прегрешений наших у Господа просим.
+  
+  \textbf{Хор:} Подай, Господи.
+  
+  Диакон:	Добрых и полезных душам нашим и мира мирови у Господа просим.
+  
+  \textbf{Хор:} Подай, Господи.
+  
+  Диакон:	Прочее время живота нашего в мире и покаянии скончати у Господа просим.
+  
+  \textbf{Хор:} Подай, Господи.
+  
+  Диакон:	Христианския кончины живота нашего, безболезненны, непостыдны, мирны и добраго ответа на Страшнем судищи Христове просим.
+  
+  \textbf{Хор:} Подай, Господи.
+  
+  Диакон:	Соединение веры и причастие Святаго Духа испросивше, сами себе, и друг друга, и весь живот наш Христу Богу предадим.
+  
+  %\lilypondfile[staffsize=16]{lilypond-files/Подай_Господи.ly}
+  
+  Диакон: 	И сподоби нас, Владыко, со дерзновением, неосужденно смети призывати Тебе, Небеснаго Бога, Отца, и глаголати:
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Our_Father.ly}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Отче_наш.ly}
+
+  Иерей: Яко Твое есть Царство, и сила, и слава. Отца, и Сына, и Святаго Духа, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-short.ly}
+
+  Иерей: Мир всем.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/И_духови_твоему.ly}
+
+  Иерей: Главы ваша Господеви приклоните.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи-short.ly}
+
+  Иерей: Благодатию, и щедротами, и человеколюбием Единороднаго Сына Твоего, с Нимже благословен еси, со Пресвятым, и Благим, и Животворящим Твоим Духом, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-Отче_наш.ly}
+
+  Иерей: Вонмем. Святая святым.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Един_Свят.ly}
+
+  \textit {\foreignlanguage{english}{insert specific material here}}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  \section*{Выносится Чаша для Причастия}
+
+  Иерей: Со страхом Божиим и верою приступите.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Благословен.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+\section*{Во время Причастия}
+
+need music for communion hymn: Тело Христово приимите, источника безсмерного вкусите.
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+  ...
+
+\switchcolumn[1]
+\selectlanguage{russian}
+
+  Иерей: Спаси, Боже люди Твоя и благослови достояние Твое.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Видехом.ly}
+
+  Иерей: Всегда, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Да_исполнятся.ly}
+
+  Иерей: Прости приимше Божественных, Святых, Пречистых, Безсмертных, Небесных и Животворящих, Страшных Христовых Тайн, достойно благодарим Господа.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-end1.ly}
+
+  Иерей: Заступи, спаси, помилуй и сохрани нас, Боже, Твоею благодатию.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-end2.ly}
+
+  Иерей: День весь совершен, свят, мирен и безгрешен испросивше, сами себе, и друг друга, и весь живот наш Христу Богу предадим.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Тебе_Господи-end.ly}
+
+  Иерей: Яко Ты еси Освящение наше, и Тебе славу возсылаем, Отцу, и Сыну, и Святому Духу, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-end.ly}
+
+  Иерей: С миром изыдем.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/О_имени.ly}
+
+  Иерей: Господу помолимся.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Господи_помилуй-end3.ly}
+
+  Иерей: Благословляяй благословящыя Тя, Господи, и освящай на Тя уповающыя, спаси люди Твоя и благослови достояние Твое, исполнение Церкве Твоея сохрани, освяти любящыя благолепие дому Твоему, Ты тех возпрослави Божественною Твоею силою и не остави нас, уповающих на Тя. Мир мирови Твоему даруй, Церквам Твоим, священником и всем людем Твоим. Яко всякое даяние благо и всяк дар совершен свыше есть, сходяй от Тебе, Отца светов. И Тебе славу, и благодарение, и поклонение возсылаем, Отцу, и Сыну, и Святому Духу, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Буди_имя.ly}
+
+  Иерей: Благословение Господе на вас, Того благодатию и человеколюбием всегда, ныне и присно, и во веки веков.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Аминь-end.ly}
+
+  Иерей: Слава Тебе, Христе Боже, Упование наше, слава Тебе
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Слава_Отцу.ly}
+
+  Иерей: Христос, истинный Бог наш, молитвами Пречистыя Своей Матере ..., и всех святых, помилует и спасет нас, яко Благ и Человеколюбец.
+
+  %\lilypondfile[staffsize=16]{lilypond-files/Великого.ly}
+
+\switchcolumn[0]*
+\selectlanguage{english}
+
+\switchcolumn[1]
+\selectlanguage{russian}
+\end{paracol}
+
+\end{document}
